@@ -71,12 +71,18 @@ Please find the complete documentation on the [freqtrade website](https://www.fr
 - [x] **Strategy Optimization by machine learning**: Use machine learning to optimize your buy/sell strategy parameters with real exchange data.
 - [X] **Adaptive prediction modeling**: Build a smart strategy with FreqAI that self-trains to the market via adaptive machine learning methods. [Learn more](https://www.freqtrade.io/en/stable/freqai/)
 - [x] **Edge position sizing** Calculate your win rate, risk reward ratio, the best stoploss and adjust your position size before taking a position for each specific market. [Learn more](https://www.freqtrade.io/en/stable/edge/).
+- [x] **Risk management subsystem** Monitor total exposure and prevent trades that exceed configured limits. [Learn more](https://www.freqtrade.io/en/stable/risk-management/).
 - [x] **Whitelist crypto-currencies**: Select which crypto-currency you want to trade or use dynamic whitelists.
 - [x] **Blacklist crypto-currencies**: Select which crypto-currency you want to avoid.
 - [x] **Builtin WebUI**: Builtin web UI to manage your bot.
 - [x] **Manageable via Telegram**: Manage the bot with Telegram.
 - [x] **Display profit/loss in fiat**: Display your profit/loss in fiat currency.
 - [x] **Performance status report**: Provide a performance status of your current trades.
+## Risk management subsystem
+
+A new module monitors existing positions and enforces user-defined limits.
+Refer to the [risk management documentation](docs/risk-management.md) for configuration details.
+
 
 ## Quick start
 
